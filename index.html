@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+</head>
+<body class="grid-container">
+    <header >
+        <nav>
+            <ul>
+                <li><a href="#sobreMim">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <img id="eu" src="imagens/eu.jpg" width="200px">    
+    </div>
+    <section id="sobreMim"> 
+       
+        <h2>Olá pessoal!</h2>
+        <p>Meu nome é <span id="nome">Felipe Renan Ramos</span></p>
+        <p>tenho 32 anos, sou apaixonado por motos,</p> 
+        <p>animais e tecnologia.</p>
+        <p>Atualmente estou estudando análise e desenvolvimento de sistemas</p>
+        <p style="font-weight: bold; color: chartreuse; font-size: 36px;">e pretendo em breve atuar na área!</p>
+    </section>
+
+    <article>
+        <h2 id="formacao">Formação</h2>
+        <p>Ensino Médio Completo</p>
+        <p id="loading2"  style="color: black;">Complete 100%</p>
+        <p>Análise e desenvolvimento de sistemas</p>
+        <p id="loading1" style="color: black;">Loading 27%</p>  
+     <br><br><br><br><br>
+        <h2>Projetos</h2>
+    <table id="projetos">
+        <tr>
+            <td>
+                <h3>Controle de Doações</h3><a href="https://github.com/frroad/Controle_de_doacoes/blob/master/sistema_de_doacoes.py">
+                <img src="imagens/projetoControleDoacoes.jpg" >                
+            </td>
+        </tr>
+    </table>
+</article>
+<br><br><br>
+
+
+    <footer>
+        <h2 id="contato">Contato</h2>
+
+        <form  id="formulario" action="processar_formulario.php" method="POST">
+        <label for="nome"></label>
+        <input type="text" placeholder="Nome" required>
+        <br>
+
+        <label for="email"></label>
+        <input type="email"  name="email" placeholder="Email" required>
+        <br>
+
+        <label for="mensagem"></label>
+        <textarea  name="mensagem" placeholder="Sua mensagem..." rows="4" required></textarea>
+        
+
+        <input type="button" value="Enviar">
+    <br><br><br><br> 
+     
+   
+    <a class="social-icon" href="https://www.facebook.com/felipe.renanramos">
+        <img src="imagens/facebook.png"  style="width: 50px; height: 50px;">
+    </a>
+    
+    <a class="social-icon" href="https://www.instagram.com/frroad/">
+        <img src="imagens/instagram.png"  style="width: 50px; height: 50px;">
+    </a>
+
+    <a class="social-icon" href="https://github.com/frroad">
+        <img src="imagens/github.png"  style="width: 50px; height: 50px;">
+    </a>
+    
+</footer>       
+    
+</body>
+</html>

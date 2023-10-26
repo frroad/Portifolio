@@ -1,0 +1,170 @@
+
+
+body{
+    background-image: url(imagens/backgroundimagem.jpg);  /* Define o plano de fundo do corpo (body) com uma imagem */ 
+    background-size: cover; /* Redimensiona a imagem para preencher todo o corpo */
+    background-position: center; /* Centraliza a imagem horizontalmente e verticalmente */
+    background-attachment: fixed;    /* Fixa a imagem para que ela não role com a página */
+}
+    
+
+header {
+    background-color: #333;  /* Define a cor de fundo */
+    color: white;/* Define a cor do texto */
+    padding: 10px;/* Adiciona um preenchimento interno */
+    grid-column-start: 1; /* Define a posição inicial na grade */
+    grid-column-end: 5; /* Define a posição final na grade */
+    
+}
+
+nav ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove o preenchimento da lista */
+    text-align: center; /* Centraliza o texto  */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin-right: 15px; /* Adiciona margem à direita entre os itens da lista */
+}
+
+
+nav ul li a {
+    text-decoration: none; /* Remove a decoração de link (sublinhado) */
+    color: white; /* Define a cor do texto dos links */
+    font-size: 32px; /* Define o tamanho da fonte */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Adiciona uma linha de sublinhado quando o link é destacado */
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif; /* Define a família de fontes */
+    color: #f7f3f3; /* Define a cor do texto */
+    padding: 20px; /* Adiciona um espaçamento interno */
+    grid-column-start: 2; /* Define a posição inicial na grade */
+    grid-column-end: 3; /* Define a posição final na grade */
+    grid-row-start: 2; /* Define a posição inicial na grade */
+    grid-row-end: 3; /* Define a posição final na grade */
+    margin: 0 auto; /* Centraliza horizontalmente na página */
+}
+
+
+.grid-container {
+    display: grid; /* Ativa o Grid Layout */
+    grid-template-columns: 1fr 1fr 1fr 2%; /* Cria colunas iguais */
+    grid-column-gap: 10px; /* Define o espaço entre as colunas */
+    grid-template-rows: 5% 25%fr 1fr 1fr; /* cria linhas */
+    align-items: center; /* Alinha verticalmente o conteúdo do Grid ao centro */
+    justify-content: center;/*alinha o elemento display flex ou grid para o centro*/
+    gap: 35px; /* Define o espaçamento entre os elementos do grid */
+}
+
+
+h2 {
+    font-size: 36px;
+    color: #007BFF;
+}
+
+
+#nome {
+    font-size: 28px;
+    color: #FF6B6B;
+    font-weight: bold;
+}
+
+
+p {
+    font-size: 21px;
+    line-height: 1;
+}
+
+
+p:last-child {
+    font-weight: bold;
+}
+
+
+img {
+    border-radius: 150px 150px 150px 150px; 
+}
+
+/* Estilos para a barra de carregamento 1 */
+#loading1{
+
+    border-radius: 20px 20px 20px 20px;
+    border: #050505 solid;
+    max-width: 350px; /* Defina o valor desejado para a largura máxima */
+    background: linear-gradient(to right, red 7%, white 50%);
+    padding-left: 5px;
+    margin: 0 auto; /* Centraliza horizontalmente (alinhamento à esquerda e à direita) */      
+}
+
+/* Estilos para a barra de carregamento 2 */
+#loading2{
+    border-radius: 20px 20px 20px 20px;
+    border: #050505 solid;
+    max-width: 350px; /* Defina o valor desejado para a largura máxima */
+    background: linear-gradient(to right, red 100%, white 50%);
+    padding-left: 5px;
+    margin: 0 auto; /* Centraliza horizontalmente (alinhamento à esquerda e à direita) */ 
+}
+
+
+article {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-family: Arial, Helvetica, sans-serif; /* Define a família de fontes */
+    color: #f5efef; /* Define a cor do texto */
+    font-weight: bold; /* Define o peso da fonte */
+    grid-column-start: 2; /* Define a posição inicial na grade */
+    grid-column-end: 3; /* Define a posição final na grade */
+    grid-row-start: 3; /* Inicia na terceira linha da grade */
+    grid-row-end: 4; /* Termina na quarta linha da grade */
+}
+
+
+#projetos{
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+
+#formulario{
+    max-width: 600px; /* Define a largura máxima do formulário */
+    margin: 0 auto; /* Centraliza horizontalmente na grade */
+    margin-bottom: 10px; /* Adiciona margem na parte inferior do formulário */
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+div{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: end;
+    align-self:flex-start;
+}
+
+footer{
+    grid-column: 2/3;
+    color: #f5efef;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+
+.social-icon{
+    display: inline;
+    margin:10px;
+    
+    
+}
+
