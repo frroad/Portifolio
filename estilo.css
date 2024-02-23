@@ -96,7 +96,7 @@ img {
     border-radius: 20px 20px 20px 20px;
     border: #050505 solid;
     max-width: 350px; /* Defina o valor desejado para a largura máxima */
-    background: linear-gradient(to right, red 7%, white 50%);
+    background: linear-gradient(to right, red 25%, white 60%);
     padding-left: 5px;
     margin: 0 auto; /* Centraliza horizontalmente (alinhamento à esquerda e à direita) */      
 }
@@ -115,7 +115,7 @@ img {
     border-radius: 20px 20px 20px 20px;
     border: #050505 solid;
     max-width: 350px; /* Defina o valor desejado para a largura máxima */
-    background: linear-gradient(to right, red 10%, white 60%);
+    background: linear-gradient(to right, red 25%, white 60%);
     padding-left: 5px;
     margin: 0 auto; /* Centraliza horizontalmente (alinhamento à esquerda e à direita) */ 
 }
